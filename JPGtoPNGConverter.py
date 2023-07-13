@@ -29,6 +29,10 @@ for file in os.listdir(existing_folder):
     # converting jpg to png AND saving to new_folder
     img.save(new_folder + "\\" + os.path.splitext(filename)[0] + ".png", "png")
 
+    print(f"Converted " + {filename})
+
+print("All Done!")
+
 
 
 
