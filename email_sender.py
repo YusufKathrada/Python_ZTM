@@ -21,5 +21,6 @@ with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
 
   # Enter your email details
   smtp.login('<your email address>', '<your password>')
+  
   smtp.send_message(email)
-  print('all good boss!')
+  print('Email successfully sent!')
