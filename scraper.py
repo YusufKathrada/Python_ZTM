@@ -1,3 +1,5 @@
+# Scrapes data from Hacker News and displays the title, with links, to only articles with 100 or more votes
+
 import requests
 from bs4 import BeautifulSoup
 import pprint
